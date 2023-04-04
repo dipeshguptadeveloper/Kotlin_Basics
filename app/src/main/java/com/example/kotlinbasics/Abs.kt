@@ -12,6 +12,11 @@ fun main() {
 
 //    for abstract
 
+    println(Add().calculate(5, 6))
+    println(Sub().calculate(10, 5))
+    println(Multiply().calculate(5, 5))
+    println(Division().calculate(77, 7))
+
 }
 
 
