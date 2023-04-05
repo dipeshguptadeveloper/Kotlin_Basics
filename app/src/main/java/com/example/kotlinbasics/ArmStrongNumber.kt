@@ -4,7 +4,9 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 fun main() {
-    println("Enter the Lower Limit to find Odd/Even Number")
+
+
+/*    println("Enter the Lower Limit to find Odd/Even Number")
     val sc = Scanner(System.`in`)
     val lowerLimit = sc.nextInt()
     println("Enter the Upper Limit to find Odd/Even Number")
@@ -22,7 +24,28 @@ fun main() {
             }
         }
         println("Arm Strong no. are $arrArm")
+    }*/
+
+
+    println("Enter the no. of terms to print :")
+    val userTerm = Scanner(System.`in`).nextInt()
+
+    var myTerms = 0
+    var no = 1
+
+
+    val arrArm = ArrayList<Int>()
+
+    while (myTerms < userTerm) {
+        if (checkArmStrongNumber(no)) {
+            arrArm.add(no)
+            myTerms++
+        }
+        no++
     }
+
+    print("First $userTerm Armstrong No. are $arrArm")
+
 }
 
 fun checkArmStrongNumber(orgNo: Int): Boolean {
