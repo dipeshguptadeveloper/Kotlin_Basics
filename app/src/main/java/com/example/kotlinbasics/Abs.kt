@@ -24,7 +24,7 @@ abstract class MyClass {
 
     abstract fun calculate(a: Int, b: Int): Int
 
-    fun displayName(name: String) {
+    open fun displayName(name: String) {
         println("Name is $name")
     }
 
@@ -35,6 +35,10 @@ class Add : MyClass() {
 
     override fun calculate(a: Int, b: Int): Int {
         return a + b
+    }
+
+    override fun displayName(name: String) {
+        println(name)
     }
 
 }
