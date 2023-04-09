@@ -5,13 +5,15 @@ class Collection {
 //    1. list -> ordered data -> duplicate entries allowed
 //    2. sets -> unordered data -> duplicate entries not allowed
 //    3. maps -> unordered data -> data stored in key-value pair -> key should be unique but value may be duplicate
+
 }
 
 fun main() {
-    val userList = listOf<Any>("Ram", 87, "Shyam", 87, "Raman", "Ramanujan")
+    val userList = listOf("Ram", 87, "Shyam", 87, "Raman", "Ramanujan")
     println(userList)
 
-    val userList2 = mutableListOf<Any>("Ram", 87, "Shyam", 87, "Raman", "Ramanujan")
+    val userList2 = mutableListOf("Ram", 87, "Shyam", 87, "Raman", "Ramanujan")
+
 
 // add
     userList2.add("Dipesh")
@@ -34,8 +36,13 @@ fun main() {
 
 //    iteration using for loop
 
-    for (name in userList2){
+    for (name in userList2) {
         println(name)
     }
+
+
+    val totalUserList = userList + userList2
+
+    println(totalUserList)
 
 }
