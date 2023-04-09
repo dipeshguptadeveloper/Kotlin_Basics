@@ -5,19 +5,19 @@ import java.util.Scanner
 fun main() {
     val number = listOf(10, 20, 30, 40, 20)
     val largestThree = number.sortedDescending().take(3)
-    println(largestThree)
+    println("The 3 Largest Numbers are $largestThree")
 
     val average = number.average()
-    println(average)
+    println("The average of $number is $average")
 
 
-    val str1 = "level"
-    val str2 = "radar"
+    println("Enter any name to check whether it's a Palindrome or not : ")
+    val str1 = Scanner(System.`in`).next()
     println(isPalindrome(str1))
-    println(isPalindrome(str2))
 
 
-    val year = 2022
+    println("Enter any year to check whether its a Leap Year or not")
+    val year = Scanner(System.`in`).nextInt()
 
     if (year % 4 == 0) {
         if (year % 100 == 0) {
