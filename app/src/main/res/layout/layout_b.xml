@@ -10,22 +10,19 @@
         <Button
             android:id="@+id/btn1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_1" />
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/btn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:text="@string/btn_2" />
+            android:layout_marginStart="5dp" />
 
         <Button
             android:id="@+id/btn3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:text="@string/btn_3" />
+            android:layout_marginStart="5dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -37,22 +34,19 @@
         <Button
             android:id="@+id/btn4"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/bnt_4" />
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/btn5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:text="@string/bnt_5" />
+            android:layout_marginStart="5dp" />
 
         <Button
             android:id="@+id/btn6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:text="@string/btn_6" />
+            android:layout_marginStart="5dp" />
 
     </LinearLayout>
 
@@ -64,22 +58,19 @@
         <Button
             android:id="@+id/btn7"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_7" />
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/btn8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:text="@string/btn_8" />
+            android:layout_marginStart="5dp" />
 
         <Button
             android:id="@+id/btn9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:text="@string/btn_9" />
+            android:layout_marginStart="5dp" />
     </LinearLayout>
 
 </RelativeLayout>

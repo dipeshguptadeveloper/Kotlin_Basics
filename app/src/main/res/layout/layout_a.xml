@@ -1,52 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center">
 
     <Button
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="@string/btn_1" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_toEndOf="@+id/btn1"
-        android:text="@string/btn_2" />
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/btn1" />
 
     <Button
         android:id="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/btn_3" />
+        android:layout_centerInParent="true" />
 
     <Button
         android:id="@+id/btn4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_toEndOf="@id/btn3"
-        android:text="@string/bnt_4" />
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/btn3" />
 
     <Button
         android:id="@+id/btn5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="@string/bnt_5" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/btn6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@id/btn5"
-        android:text="@string/btn_6" />
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/btn5" />
 
 </RelativeLayout>
