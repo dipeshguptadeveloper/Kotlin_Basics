@@ -9,4 +9,12 @@
     <string name="btn_7">btn 7</string>
     <string name="btn_8">btn 8</string>
     <string name="btn_9">btn 9</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="email_id">Email Id</string>
+    <string name="username">Username</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_an_account">Create an Account</string>
 </resources>
