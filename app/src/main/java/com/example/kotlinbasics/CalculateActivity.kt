@@ -19,22 +19,22 @@ class CalculateActivity : AppCompatActivity() {
         binding.btnAdd.setOnClickListener {
 
             val result = no1 + no2
-            binding.txtResult.text = result.toString()
+            binding.txtResult.text = "The Sum of $no1 and $no2 is $result"
         }
 
         binding.btnSub.setOnClickListener {
             val result = no2 - no1
-            binding.txtResult.text = result.toString()
+            binding.txtResult.text = "The Substraction of $no2 and $no1 is $result"
         }
 
         binding.btnMulti.setOnClickListener {
             val result = no1 * no2
-            binding.txtResult.text = result.toString()
+            binding.txtResult.text = "The Multiplication of $no1 and $no2 is $result"
         }
 
         binding.btnDivi.setOnClickListener {
             val result = no2 / no1
-            binding.txtResult.text = result.toString()
+            binding.txtResult.text = "The Division of $no2 and $no1 is $result"
         }
     }
 }
